@@ -1,0 +1,80 @@
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+:root{
+    --amarelo: #F2C53D;
+    --laranjaClaro: #F28E13;
+    --laranja: #F27405;
+    --texto: 'Roboto', sans-serif;
+    --titulo: 'Bebas Neue', cursive;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    margin: auto;
+    background-image: linear-gradient( 35deg,var(--amarelo),var(--laranjaClaro),var(--laranja));
+    height: 100vh;
+}
+section{
+    width: 370px;
+    height: au
+}
+.topo{
+    padding: 20px;
+    margin: auto;
+}
+h1{
+    font-family: var(--titulo);
+    font-size: 1.8em;
+    padding: 25px;
+    letter-spacing: 3px;
+}
+p{
+    font-family: var(--texto);
+    font-size: 1.1em;
+    line-height: 30px;
+}
+.calculo{
+    padding: 20px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    padding: 8px;
+    text-align: end;
+    border: solid var(--laranja) 1px;
+    border-radius: 8px;
+}
+label{
+    font-family: var(--texto);
+    padding: 5px;
+    margin-top: 8px;
+}
+button{
+    font-family: var(--texto);
+    font-size: 1em;
+    padding: 8px;
+    margin-top: 25px;
+    border: solid var(--laranja) 1px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: var(--amarelo);
+    border: solid black 1px;
+    transition: ease-in-out;
+    transition: 0.6s;
+}
+.resultado{
+    margin: auto;
+}
+.resultado input{
+    width: 355px;
+    height: auto;
+}

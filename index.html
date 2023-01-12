@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Gorgeta</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="description" content="Calcular a conta do restaurante,da gorgeta e da festinha nunca foi tão facil.">
+</head>
+<body>
+    <section class="topo">
+        <div>
+            <h1>Divida a Conta</h1>
+            <p>Divida a conta com seus amigos</p>
+            <p>Calcule a gorgeta dos garçons</p>
+        </div>
+    </section>
+    <section class="calculo">
+        <div class="flex">
+            <label for="iconta">Total da conta</label>
+            <input type="number" name="conta" id="iconta" placeholder="Valor da conta.">
+        </div>
+        <div class="flex">
+            <label for="igorgeta">Gorgeta</label>
+            <input type="number" name="gorgeta" id="igorgeta" placeholder="quantos porcento quer pagar de gorgeta?">
+        </div>
+        <div class="flex">
+            <label for="ipessoas">Número de pessoas</label>
+            <input type="number" name="pessoas" id="ipessoas" placeholder="dividir para quantas pessoas?">
+        </div>
+        <div class="flex">
+            <button onclick="DivisorDeValores()">Calcular</button>
+        </div>
+    </section>
+    <section id="resultado" class="resultado">
+       
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
