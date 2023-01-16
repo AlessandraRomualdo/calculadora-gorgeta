@@ -14,5 +14,5 @@ _O valor da gorgeta é opcional caso não se aplique_
 -JavaScript
 
 <div>
-<img src='tela-app-gordeta.png'/>
+<img src='tela-app-gorgeta.png'/>
 </div>
